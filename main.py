@@ -6,7 +6,7 @@ from Q5autograder import *
 
 def folderCreate(qNum, secNum, teamNum):
     folderName = 'S' + str(secNum) + 'T' + str(teamNum) + 'Q' + str(qNum)
-    folderPath = 'AutograderOutput\\' + folderName
+    folderPath = 'C:\\AutograderOutput\\' + folderName
     testPath = folderPath + '\\ScriptOutput\\' # Output of the script that is run
     expectPath = folderPath + '\\ExpectedOutput\\' # Expected state of the output folder
     notesPath = folderPath + '\\GradeNotes\\' # Location of csv files containing any issues with the script
